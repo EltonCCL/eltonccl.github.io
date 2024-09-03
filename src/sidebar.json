@@ -1,0 +1,34 @@
+{
+  "imageUrl": "profile_icon.jpeg",
+  "skills": {
+    "Programming": ["Python", "C/C++", "SQL", "JavaScript/TypeScript", "Java", "PHP"],
+    "Technical": [
+      {
+        "category": "Machine Learning",
+        "items": ["TensorFlow/Keras", "PyTorch", "Hugging Face", "Scikit-learn", "Pandas", "NumPy"]
+      },
+      {
+        "category": "Databases",
+        "items": ["MySQL", "PostgreSQL", "SQLAlchemy", "ORM"]
+      },
+      {
+        "category": "Tools & Frameworks",
+        "items": ["Git", "Docker", "Node.js", "FastAPI", "React", "Flutter"]
+      }
+    ]
+  },
+  "languages": [
+    {
+      "name": "Cantonese",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Fluent"
+    },
+    {
+      "name": "Chinese",
+      "level": "Proficient"
+    }
+  ]
+}
