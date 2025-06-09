@@ -19,10 +19,11 @@
     "description": [
       "Undergraduate Research Opportunities Program (UROP)",
       "Conducted research on various pose estimation models and skeleton-based action recognition models for fall detection, resulting in an 85% F1 score"
-    ]
+    ],
+    "link": "https://github.com/EltonCCL/Fall-Detection"
   },
   {
-    "name": "Online Multiplayer Bomberman",
+    "name": "Full-Stack Real-Time Multiplayer Game: Bomberman",
     "description": [
       "Developed a real-time multiplayer game supporting 2 concurrent players with a Node.js backend and HTML/CSS/JavaScript frontend.",
       "Implemented web sessions and sockets for interactive and seamless gameplay."
