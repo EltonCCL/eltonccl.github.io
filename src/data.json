@@ -1,16 +1,27 @@
 [
     {
+        "company": "J.P. Morgan",
+        "title": "Summer Associate, Applied AI/ML Researcher",
+        "startDate": "October 2025",
+        "endDate": "April 2026",
+        "description": [
+            "Conduct research on financial statement forecasting by simulating corporate strategy and accounting mechanics, designing the underlying drivers for a system dynamics framework.",
+            "Train time-series drivers using MLE and MCMC, validating parameters and model fit through statistical testing.",
+            "Standardize the simulation tool into a configurable workflow, establishing a comprehensive testing suite to ensure numerical accuracy and software reliability."
+        ]  
+    },
+    {
         "company": "HKUST JC STEM Lab of Data Science Foundations",
         "title": "Junior Research Assistant",
         "startDate": "June 2024",
         "endDate": "August 2024",
         "description": [
-            "Collaborated with Hong Kong Air Cargo Terminals Limited (HACTL) to conduct root cause analysis of operational inefficiencies and optimize routing within their large-scale cargo handling system.",
-            "Implemented reinforcement learning algorithms to optimize signaling, reducing congestion.",
-            "Modeled spatio-temporal graph models that predicted cargo congestion with over 80% accuracy.",
-            "Engineered an LLM agent for root cause analysis, achieving over 90% accuracy identifying complex scenario issues.",
-            "Streamlined the congestion detection pipeline, reducing runtime by 50% and significantly improving efficiency.",
-            "Enhanced data preprocessing pipeline for cargo movement data, reducing data errors from 25% to less than 1%."
+            "Led an industrial research project with Hong Kong Air Cargo Terminals Limited (HACTL), managing the project from initial data collection and analysis to the development of optimized solutions.",
+            "Applied reinforcement learning to optimize signaling, reducing cargo congestion within the conveyor system.",
+            "Developed a spatio-temporal graph network to predict cargo congestion with over 80% accuracy.",
+            "Engineered an LLM agent for root cause analysis, achieving over 90% accuracy in identifying complex scenarios.",
+            "Reduced congestion detection algorithm runtime by 50%, substantially improving overall efficiency.",
+            "Streamlined the cargo movement data preprocessing pipeline, slashing data errors from 25% to under 1%"
         ]
     },
     {

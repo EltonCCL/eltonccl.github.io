@@ -138,6 +138,7 @@ function Sidebar({ name, title, imageUrl, skills, languages }) {
       <Name>Elton Chun-Chai, LI</Name>
       <EducationItem>MPhil in Computer Science, HKUST</EducationItem>
       <EducationItem>BEng in Computer Science, HKUST</EducationItem>
+      <EducationItem><div style={{fontSize: "14px", color: "#666", paddingTop: "4px"}}>Passed Level I of the CFA® Program</div></EducationItem>
       </AboutMe>
       <SectionTitle>Skills</SectionTitle>
       <Separate></Separate>
