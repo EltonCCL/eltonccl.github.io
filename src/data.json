@@ -1,6 +1,7 @@
 [
     {
         "company": "J.P. Morgan",
+        "icon": "jpmorganchasecc.com",
         "title": "Summer Associate, Applied AI/ML Researcher",
         "startDate": "October 2025",
         "endDate": "April 2026",
@@ -12,6 +13,7 @@
     },
     {
         "company": "HKUST JC STEM Lab of Data Science Foundations",
+        "icon": "hkust.edu.hk",
         "title": "Junior Research Assistant",
         "startDate": "June 2024",
         "endDate": "August 2024",
@@ -26,6 +28,7 @@
     },
     {
         "company": "Dymon Asia Capital",
+        "icon": "dymonasia.com",
         "title": "Quant Research Intern",
         "startDate": "April 2024",
         "endDate": "June 2024",
@@ -37,6 +40,7 @@
     },
     {
         "company": "Optix Solutions Ltd",
+        "icon": "optixsolutions.com.hk",
         "title": "AI R&D Intern",
         "startDate": "June 2023",
         "endDate": "August 2023",
