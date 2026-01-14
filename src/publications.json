@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Efficient Time-Dependent Shortest Path Finding on Cargo Network",
+        "authors": ["Elton Chun-Chai Li", "Ziyi Liu", "Ruiyuan Zhang", "Sean Shing-Fung Lau", "Yehong Xu", "Xiaofang Zhou"],
+        "venue": "IEEE Big Data",
+        "year": "2025",
+        "type": "conference"
+    },
+    {
+        "title": "CargoFlow: A Comprehensive System for Congestion Detection and Root Cause Analysis in Cargo Handling",
+        "authors": ["Elton Chun-Chai Li", "Ruiyuan Zhang", "Yichen Ren", "Xiaofang Zhou", "Sean Shing Fung Lau", "Morgan Xian Biao Hiew", "Yan Nei Law"],
+        "venue": "IEEE 23rd International Conference on Industrial Informatics (INDIN)",
+        "year": "2025",
+        "type": "conference"
+    }
+]

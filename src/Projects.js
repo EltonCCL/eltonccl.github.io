@@ -12,23 +12,27 @@ const ProjectsTitle = styled.h2`
 
 const ProjectCard = styled.div`
   border-radius: 18px;
-  padding: 0px 0px 16px 0px;
+  padding: 0px 0px 24px 0px;
 `;
 
 const ProjectName = styled.h3`
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 4px;
+  margin-top: 0px;
 `;
 
 const DescriptionList = styled.ul`
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 0px;
+  margin-top: 8px;
+  padding-left: 20px;
+  color: #333;
 `;
 
 const DescriptionItem = styled.li`
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 `;
 
 const ProjectLink = styled.a`
@@ -42,10 +46,9 @@ const ProjectLink = styled.a`
 `;
 
 const Separate = styled.div`
-    border-bottom: 1px solid #a5a5a5;
+    border-bottom: 1px solid #e0e0e0;
     width: calc(100% - 0px);
-    transform: translate(0px, -8px);
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 `;
 
 function Projects({ projects }) {

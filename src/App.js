@@ -7,6 +7,7 @@ import Projects from './Projects';
 import Footer from './Footer';
 import experienceData from './data.json';
 import projectsData from './projects.json';
+import publicationsData from './publications.json';
 import sidebarData from './sidebar.json';
 import Biography from './Biography';
 import Publications from './Publication';
@@ -72,7 +73,7 @@ function App() {
     { id: 'education', label: 'Education', component: <Education /> },
     { id: 'experience', label: 'Work Experience', component: <WorkExperience experiences={experienceData} /> },
     { id: 'projects', label: 'Projects', component: <Projects projects={projectsData} /> },
-    { id: 'publications', label: 'Publications', component: <Publications /> },
+    { id: 'publications', label: 'Publications', component: <Publications publications={publicationsData} /> },
     { id: 'patents', label: 'Patents', component: <Patents /> },
   ], []);
 
