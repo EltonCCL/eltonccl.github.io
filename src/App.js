@@ -13,6 +13,7 @@ import Biography from './Biography';
 import Publications from './Publication';
 import Education from './Education';
 import Patents from './Patents';
+import Certifications from './Certifications';
 import { Tabs, ConfigProvider } from 'antd';
 import { Helmet } from 'react-helmet';
 
@@ -71,6 +72,7 @@ function App() {
   const headers = useMemo(() => [
     { id: 'biography', label: 'Biography', component: <Biography /> },
     { id: 'education', label: 'Education', component: <Education /> },
+    { id: 'certifications', label: 'Certifications', component: <Certifications /> },
     { id: 'experience', label: 'Work Experience', component: <WorkExperience experiences={experienceData} /> },
     { id: 'projects', label: 'Projects', component: <Projects projects={projectsData} /> },
     { id: 'publications', label: 'Publications', component: <Publications publications={publicationsData} /> },

@@ -12,9 +12,9 @@ const AboutMeContainer = styled.div`
 `;
 
 const Separate = styled.div`
-    border-bottom: 1px solid #a5a5a5;
+    border-bottom: 1px solid #e0e0e0;
     width: calc(100% - 0px);
-    transform: translate(0px, -8px);
+    margin-bottom: 16px;
 `;
 
 function Biography() {

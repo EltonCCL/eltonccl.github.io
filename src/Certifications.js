@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import EducationData from './education.json';
+import CertificationsData from './certifications.json';
+
 const Container = styled.div`
 `;
 
@@ -14,12 +15,14 @@ const Card = styled.div`
   border-radius: 18px;
   padding: 0px 0px 16px 0px;
 `;
+
 const Separate = styled.div`
-    border-bottom: 1px solid #e0e0e0;
-    width: calc(100% - 0px);
-    margin-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  width: calc(100% - 0px);
+  margin-bottom: 16px;
 `;
-const InstituteLogo = styled.img`
+
+const CertificationLogo = styled.img`
   width: 56px;
   height: 56px;
   object-fit: contain;
@@ -63,35 +66,37 @@ const ContentWrapper = styled.div`
 
 const LOGO_DEV_PUBLIC_KEY = 'pk_bGe_svLvQhOJG5-N4rQqdw';
 
-function InstituteLogoWithFallback({ icon, institute }) {
+function CertificationLogoWithFallback({ icon, issuer }) {
   const [hasError, setHasError] = useState(false);
 
   if (hasError) {
-    return <LogoFallback>{institute.charAt(0)}</LogoFallback>;
+    return <LogoFallback>{issuer.charAt(0)}</LogoFallback>;
   }
 
   return (
-    <InstituteLogo
+    <CertificationLogo
       src={`https://img.logo.dev/${icon}?token=${LOGO_DEV_PUBLIC_KEY}`}
-      alt={`${institute} logo`}
+      alt={`${issuer} logo`}
       loading="lazy"
       onError={() => setHasError(true)}
     />
   );
 }
 
-const CompanyName = styled.h3`
+const CertificationName = styled.h3`
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 4px;
 `;
-const JobTitle = styled.h4`
+
+const IssuerName = styled.h4`
   font-size: 18px;
   font-weight: 400;
   font-style: italic;
   margin-bottom: 8px;
 `;
-const DateRange = styled.p`
+
+const IssueDate = styled.p`
   font-size: 16px;
   color: #666;
   margin-bottom: 4px;
@@ -101,36 +106,28 @@ const DateRange = styled.p`
     text-align: left;
   }
 `;
-const DescriptionList = styled.ul`
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 0px;
-`;
-const DescriptionItem = styled.div`
-  margin-bottom: 8px;
-`;
-function Education() {
+
+function Certifications() {
   return (
     <Container>
-      <Title>Education</Title>
-      {EducationData.map((exp, index) => (
+      <Title>Certifications</Title>
+      {CertificationsData.map((cert, index) => (
         <Card key={index}>
           <Separate></Separate>
           <ContentWrapper>
-            {exp.icon && <InstituteLogoWithFallback icon={exp.icon} institute={exp.institute} />}
+            {cert.icon && <CertificationLogoWithFallback icon={cert.icon} issuer={cert.issuer} />}
             <div style={{ flex: 1 }}>
               <div className='container-fluid'>
                 <div className="row justify-content-between">
                   <div className="col-md" style={{ padding: 0 }}>
-                    <CompanyName>{exp.degree}</CompanyName>
-                    <JobTitle>{exp.institute}</JobTitle>
+                    <CertificationName>{cert.name}</CertificationName>
+                    <IssuerName>{cert.issuer}</IssuerName>
                   </div>
                   <div className="col-md-4" style={{ padding: 0 }}>
-                    <DateRange>{exp.startDate} - {exp.endDate}</DateRange>
+                    <IssueDate>Issued {cert.issueDate}</IssueDate>
                   </div>
                 </div>
               </div>
-              <DescriptionItem>GPA: {exp.gpa}</DescriptionItem>
             </div>
           </ContentWrapper>
         </Card>
@@ -139,4 +136,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default Certifications;

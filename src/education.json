@@ -1,16 +1,18 @@
 [
     {
         "institute": "Hong Kong University of Science and Technology",
-        "degree": "Master of Philosophy in Computer Science and Engineering",
+        "degree": "MPhil in Computer Science and Engineering",
         "startDate": "September 2024",
         "endDate": "June 2027",
-        "gpa": "3.97/4.3"
+        "gpa": "3.97/4.3",
+        "icon": "hkust.edu.hk"
     },
     {
         "institute": "Hong Kong University of Science and Technology",
-        "degree": "Bachelor of Engineering in Computer Science",
+        "degree": "BEng in Computer Science",
         "startDate": "September 2021",
         "endDate": "June 2024",
-        "gpa": "3.5/4.3"
+        "gpa": "3.5/4.3",
+        "icon": "hkust.edu.hk"
     }
 ]
