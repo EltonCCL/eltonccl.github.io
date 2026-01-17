@@ -2,12 +2,12 @@
     {
         "company": "J.P. Morgan",
         "icon": "jpmorganchasecc.com",
-        "title": "Summer Associate, Applied AI/ML Researcher",
+        "title": "Applied AI/ML Researcher (Off-cycle Associate Intern)",
         "startDate": "October 2025",
         "endDate": "April 2026",
         "description": [
             "Conduct research on financial statement forecasting by simulating corporate strategy and accounting mechanics, designing the underlying drivers for a system dynamics framework.",
-            "Train time-series drivers using MLE and MCMC, validating parameters and model fit through statistical testing.",
+            "Train time-series drivers using MLE and MCMC in Tensorflow, validating parameters and model fit through statistical testing.",
             "Standardize the simulation tool into a configurable workflow, establishing a comprehensive testing suite to ensure numerical accuracy and software reliability."
         ]  
     },
