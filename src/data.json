@@ -7,8 +7,10 @@
         "endDate": "April 2026",
         "description": [
             "Conduct research on financial statement forecasting by simulating corporate strategy and accounting mechanics, designing the underlying drivers for a system dynamics framework.",
-            "Train time-series drivers using MLE and MCMC in Tensorflow, validating parameters and model fit through statistical testing.",
-            "Standardize the simulation tool into a configurable workflow, establishing a comprehensive testing suite to ensure numerical accuracy and software reliability."
+            "Achieved a 2.7x speedup in ML training pipelines by optimizing TensorFlow computational graphs to reduce operations by 90%.",
+            "Standardize the simulation tool into a configurable workflow, establishing a comprehensive testing suite to ensure numerical accuracy and software reliability.",
+            "Performed sensitivity analysis and scenario simulations to evaluate the robustness of forecasting outputs under different corporate strategies.",
+            "Train time-series drivers using MLE and MCMC in TensorFlow, validating parameters and model fit through statistical testing."
         ]  
     },
     {
