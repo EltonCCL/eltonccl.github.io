@@ -6,11 +6,11 @@
         "startDate": "October 2025",
         "endDate": "April 2026",
         "description": [
-            "Conduct research on financial statement forecasting by simulating corporate strategy and accounting mechanics, designing the underlying drivers for a system dynamics framework.",
-            "Achieved a 2.7x speedup in ML training pipelines by optimizing TensorFlow computational graphs to reduce operations by 90%.",
-            "Standardize the simulation tool into a configurable workflow, establishing a comprehensive testing suite to ensure numerical accuracy and software reliability.",
-            "Performed sensitivity analysis and scenario simulations to evaluate the robustness of forecasting outputs under different corporate strategies.",
-            "Train time-series drivers using MLE and MCMC in TensorFlow, validating parameters and model fit through statistical testing."
+            "Developed a configurable financial statement simulator for accounting-consistent forecasting and scenario modeling.",
+            "Formulated financial drivers, corporate-policy assumptions, and hidden-state variables to model statement dynamics.",
+            "Implemented symbolic modeling, validation, and testing infrastructure to support 50+ statement line items and 200+ accounting and driver equations while verifying accounting consistency.",
+            "Conducted scenario and sensitivity analysis to assess forecast robustness across business and market assumptions.",
+            "Accelerated generated TensorFlow pipelines through computation graph restructuring and batched execution planning, reducing operation overhead by 90% and achieving a 2.7x runtime speedup."
         ]  
     },
     {
