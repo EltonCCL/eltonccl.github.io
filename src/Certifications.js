@@ -102,7 +102,7 @@ const IssueDate = styled.p`
   margin-bottom: 4px;
   text-align: right;
 
-  @media (max-width:768px) {
+  @media (max-width: 1199px) {
     text-align: left;
   }
 `;
@@ -119,11 +119,11 @@ function Certifications() {
             <div style={{ flex: 1 }}>
               <div className='container-fluid'>
                 <div className="row justify-content-between">
-                  <div className="col-md" style={{ padding: 0 }}>
+                  <div className="col-xl" style={{ padding: 0 }}>
                     <CertificationName>{cert.name}</CertificationName>
                     <IssuerName>{cert.issuer}</IssuerName>
                   </div>
-                  <div className="col-md-4" style={{ padding: 0 }}>
+                  <div className="col-xl-4" style={{ padding: 0 }}>
                     <IssueDate>Issued {cert.issueDate}</IssueDate>
                   </div>
                 </div>

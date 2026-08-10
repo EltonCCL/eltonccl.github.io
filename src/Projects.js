@@ -35,6 +35,17 @@ const DescriptionItem = styled.li`
   margin-bottom: 10px;
 `;
 
+const ProjectImage = styled.img`
+  display: block;
+  width: 360px;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-sizing: border-box;
+`;
+
 const ProjectLink = styled.a`
   color: #0070c9;
   text-decoration: none;
@@ -70,6 +81,9 @@ function Projects({ projects }) {
               <DescriptionItem key={itemIndex}>{item}</DescriptionItem>
             ))}
           </DescriptionList>
+          {project.image && (
+            <ProjectImage src={project.image} alt={project.imageAlt || project.name} />
+          )}
 
         </ProjectCard></>
 

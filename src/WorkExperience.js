@@ -35,7 +35,7 @@ const DateRange = styled.p`
   margin-bottom: 4px;
   text-align: right;
 
-  @media (max-width:768px) {
+  @media (max-width: 1199px) {
     text-align: left;
   }
 `;
@@ -131,12 +131,12 @@ function WorkExperience({ experiences }) {
               {exp.icon && <CompanyLogoWithFallback icon={exp.icon} company={exp.company} />}
               <div style={{ flex: 1 }}>
                 <div className='container-fluid'>
-                  <div class="row justify-content-between">
-                    <div class="col-md" style={{ padding: 0 }}>
+                  <div className="row justify-content-between">
+                    <div className="col-xl" style={{ padding: 0 }}>
                       <CompanyName>{exp.company}</CompanyName>
                       <JobTitle>{exp.title}</JobTitle>
                     </div>
-                    <div class="col-md-4" style={{ padding: 0 }}>
+                    <div className="col-xl-4" style={{ padding: 0 }}>
                       <DateRange>{exp.startDate} - {exp.endDate}</DateRange>
                     </div>
                   </div>

@@ -3,8 +3,8 @@
         "company": "J.P. Morgan",
         "icon": "jpmorganchasecc.com",
         "title": "Applied AI/ML Researcher (Off-cycle Associate Intern)",
-        "startDate": "October 2025",
-        "endDate": "April 2026",
+        "startDate": "Oct 2025",
+        "endDate": "Apr 2026",
         "description": [
             "Developed a configurable financial statement simulator for accounting-consistent forecasting and scenario modeling.",
             "Formulated financial drivers, corporate-policy assumptions, and hidden-state variables to model statement dynamics.",
@@ -17,8 +17,8 @@
         "company": "HKUST JC STEM Lab of Data Science Foundations",
         "icon": "hkust.edu.hk",
         "title": "Junior Research Assistant",
-        "startDate": "June 2024",
-        "endDate": "August 2024",
+        "startDate": "Jun 2024",
+        "endDate": "Aug 2024",
         "description": [
             "Led an industrial research project with Hong Kong Air Cargo Terminals Limited (HACTL), managing the project from initial data collection and analysis to the development of optimized solutions.",
             "Applied reinforcement learning to optimize signaling, reducing cargo congestion within the conveyor system.",
@@ -32,8 +32,8 @@
         "company": "Dymon Asia Capital",
         "icon": "dymonasia.com",
         "title": "Quant Research Intern",
-        "startDate": "April 2024",
-        "endDate": "June 2024",
+        "startDate": "Apr 2024",
+        "endDate": "Jun 2024",
         "description": [
             "Formulated time-series models integrating market sentiment for stock price prediction.",
             "Engineered automated ETL pipelines leveraging APIs, Selenium, and NLP libraries (e.g., NLTK, SpaCy) to efficiently acquire and process financial data from 5+ vendors, enhancing data availability for analysis.",
@@ -44,8 +44,8 @@
         "company": "Optix Solutions Ltd",
         "icon": "optixsolutions.com.hk",
         "title": "AI R&D Intern",
-        "startDate": "June 2023",
-        "endDate": "August 2023",
+        "startDate": "Jun 2023",
+        "endDate": "Aug 2023",
         "description": [
             "Led a team of three interns to develop a full-stack large language model application for DBS Bank.",
             "Orchestrated code reviews, daily meetings, ensuring project milestone achievement.",

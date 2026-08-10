@@ -4,7 +4,9 @@
     "description": [
       "Built a React-based web service and mobile application to visualize weather forecasting results.",
       "Delivered a functional application providing comprehensive insights to the Hong Kong Observatory (HKO) in-house team and university researchers, enhancing data interaction and usability."
-    ]
+    ],
+    "image": "/web_preview.png",
+    "imageAlt": "Weather forecast visualization web service preview"
   },
   {
     "name": "Interactive Data Visualization Platform for HKUST CSE Department",
@@ -31,4 +33,3 @@
     "link": "https://github.com/EltonCCL/comp4021-bomberman"
   }
 ]
-
