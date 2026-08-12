@@ -1,0 +1,56 @@
+[
+    {
+        "company": "J.P. Morgan",
+        "icon": "jpmorganchasecc.com",
+        "title": "Applied AI/ML Researcher (Off-cycle Associate Intern)",
+        "startDate": "Oct 2025",
+        "endDate": "Apr 2026",
+        "description": [
+            "Developed a configurable financial statement simulator for accounting-consistent forecasting and scenario modeling.",
+            "Formulated financial drivers, corporate-policy assumptions, and hidden-state variables to model statement dynamics.",
+            "Implemented symbolic modeling, validation, and testing infrastructure to support 50+ statement line items and 200+ accounting and driver equations while verifying accounting consistency.",
+            "Conducted scenario and sensitivity analysis to assess forecast robustness across business and market assumptions.",
+            "Accelerated generated TensorFlow pipelines through computation graph restructuring and batched execution planning, reducing operation overhead by 90% and achieving a 2.7x runtime speedup."
+        ]  
+    },
+    {
+        "company": "HKUST JC STEM Lab of Data Science Foundations",
+        "icon": "hkust.edu.hk",
+        "title": "Junior Research Assistant",
+        "startDate": "Jun 2024",
+        "endDate": "Aug 2024",
+        "description": [
+            "Led an industrial research project with Hong Kong Air Cargo Terminals Limited (HACTL), managing the project from initial data collection and analysis to the development of optimized solutions.",
+            "Applied reinforcement learning to optimize signaling, reducing cargo congestion within the conveyor system.",
+            "Developed a spatio-temporal graph network to predict cargo congestion with over 80% accuracy.",
+            "Engineered an LLM agent for root cause analysis, achieving over 90% accuracy in identifying complex scenarios.",
+            "Reduced congestion detection algorithm runtime by 50%, substantially improving overall efficiency.",
+            "Streamlined the cargo movement data preprocessing pipeline, slashing data errors from 25% to under 1%"
+        ]
+    },
+    {
+        "company": "Dymon Asia Capital",
+        "icon": "dymonasia.com",
+        "title": "Quant Research Intern",
+        "startDate": "Apr 2024",
+        "endDate": "Jun 2024",
+        "description": [
+            "Formulated time-series models integrating market sentiment for stock price prediction.",
+            "Engineered automated ETL pipelines leveraging APIs, Selenium, and NLP libraries (e.g., NLTK, SpaCy) to efficiently acquire and process financial data from 5+ vendors, enhancing data availability for analysis.",
+            "Optimized data loading pipelines, improving data accuracy by 25%, and maintained 50+ database schemas for efficient market data storage and retrieval."
+        ]
+    },
+    {
+        "company": "Optix Solutions Ltd",
+        "icon": "optixsolutions.com.hk",
+        "title": "AI R&D Intern",
+        "startDate": "Jun 2023",
+        "endDate": "Aug 2023",
+        "description": [
+            "Led a team of three interns to develop a full-stack large language model application for DBS Bank.",
+            "Orchestrated code reviews, daily meetings, ensuring project milestone achievement.",
+            "Fine-tuned LLMs like BERT for document classification and sentiment analysis tasks.",
+            "Architected a topic tagging pipeline using LLMs for MTR Corp.'s NLP project, increasing accuracy by 14%."
+        ]
+    }
+]

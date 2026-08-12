@@ -1,0 +1,18 @@
+[
+    {
+        "institute": "Hong Kong University of Science and Technology",
+        "degree": "MPhil in Computer Science and Engineering",
+        "startDate": "Sep 2024",
+        "endDate": "Jan 2027",
+        "gpa": "3.97/4.3",
+        "icon": "hkust.edu.hk"
+    },
+    {
+        "institute": "Hong Kong University of Science and Technology",
+        "degree": "BEng in Computer Science",
+        "startDate": "Sep 2021",
+        "endDate": "Jun 2024",
+        "gpa": "3.5/4.3",
+        "icon": "hkust.edu.hk"
+    }
+]
