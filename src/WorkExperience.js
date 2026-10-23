@@ -128,7 +128,11 @@ function WorkExperience({ experiences }) {
           <Card key={index}>
             <Separate></Separate>
             <ContentWrapper>
-              {exp.icon && <CompanyLogoWithFallback icon={exp.icon} company={exp.company} />}
+              {exp.logo ? (
+                <CompanyLogo src={`${process.env.PUBLIC_URL}/${exp.logo}`} alt={`${exp.company} logo`} />
+              ) : exp.icon ? (
+                <CompanyLogoWithFallback icon={exp.icon} company={exp.company} />
+              ) : null}
               <div style={{ flex: 1 }}>
                 <div className='container-fluid'>
                   <div className="row justify-content-between">

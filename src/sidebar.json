@@ -8,12 +8,20 @@
         "items": ["TensorFlow/Keras", "PyTorch", "Hugging Face", "Scikit-learn", "Pandas", "NumPy"]
       },
       {
+        "category": "Agentic AI",
+        "items": ["Agentic Workflows", "MCP", "Agent2Agent (A2A)"]
+      },
+      {
         "category": "Databases",
         "items": ["MySQL", "PostgreSQL", "SQLAlchemy", "ORM"]
       },
       {
+        "category": "Web & APIs",
+        "items": ["HTML5", "RESTful APIs", "WebSockets", "FastAPI", "React", "React Native", "Node.js"]
+      },
+      {
         "category": "Tools & Frameworks",
-        "items": ["Git", "Docker", "Node.js", "FastAPI", "React", "Flutter"]
+        "items": ["Git", "Docker", "Linux", "Flutter"]
       }
     ]
   },

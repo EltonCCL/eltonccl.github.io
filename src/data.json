@@ -6,26 +6,25 @@
         "startDate": "Oct 2025",
         "endDate": "Apr 2026",
         "description": [
-            "Developed a configurable financial statement simulator for accounting-consistent forecasting and scenario modeling.",
-            "Formulated financial drivers, corporate-policy assumptions, and hidden-state variables to model statement dynamics.",
-            "Implemented symbolic modeling, validation, and testing infrastructure to support 50+ statement line items and 200+ accounting and driver equations while verifying accounting consistency.",
-            "Conducted scenario and sensitivity analysis to assess forecast robustness across business and market assumptions.",
-            "Accelerated generated TensorFlow pipelines through computation graph restructuring and batched execution planning, reducing operation overhead by 90% and achieving a 2.7x runtime speedup."
+            "Developed a configurable system-dynamics simulator for accounting-consistent financial statement forecasting.",
+            "Modelled accounting-event dynamics using literature-backed linear financial drivers, hidden-state variables, and vintage tracking, incorporating financial-ratio targets and corporate-policy assumptions.",
+            "Designed and implemented a symbolic modelling framework with reusable components, automated dependency graph construction and resolution, variable indexing, and TensorFlow computation graph generation.",
+            "Engineered structural validation and testing infrastructure supporting 50+ statement line items and 200+ accounting and driver equations, including pre-execution accounting-identity checks.",
+            "Accelerated TensorFlow pipelines through computation graph restructuring and batched execution, reducing operation overhead by 90% and achieving a 2.7× runtime speedup."
         ]  
     },
     {
         "company": "HKUST JC STEM Lab of Data Science Foundations",
         "icon": "hkust.edu.hk",
-        "title": "Junior Research Assistant",
+        "title": "Research Assistant",
         "startDate": "Jun 2024",
         "endDate": "Aug 2024",
         "description": [
-            "Led an industrial research project with Hong Kong Air Cargo Terminals Limited (HACTL), managing the project from initial data collection and analysis to the development of optimized solutions.",
-            "Applied reinforcement learning to optimize signaling, reducing cargo congestion within the conveyor system.",
-            "Developed a spatio-temporal graph network to predict cargo congestion with over 80% accuracy.",
-            "Engineered an LLM agent for root cause analysis, achieving over 90% accuracy in identifying complex scenarios.",
-            "Reduced congestion detection algorithm runtime by 50%, substantially improving overall efficiency.",
-            "Streamlined the cargo movement data preprocessing pipeline, slashing data errors from 25% to under 1%"
+            "Led an industrial research collaboration with HACTL, coordinating with its representative to define technical requirements, obtain operational data, and investigate cargo routing and congestion analysis.",
+            "Extended the research during my MPhil, developing resource-constrained multi-agent scheduling heuristics for makespan minimization and evaluating the effects of planning priority on routes and resource use.",
+            "Built an LLM agent for root-cause analysis, achieving over 90% accuracy in tracing congestion events.",
+            "Identified invalid cargo movements in operational logs and reconstructed warehouse routing graphs through simulation and visualization, reducing preprocessing errors from 25% to below 1%.",
+            "Formulated a reinforcement learning approach to optimise equipment operation sequencing."
         ]
     },
     {
@@ -35,9 +34,9 @@
         "startDate": "Apr 2024",
         "endDate": "Jun 2024",
         "description": [
-            "Formulated time-series models integrating market sentiment for stock price prediction.",
-            "Engineered automated ETL pipelines leveraging APIs, Selenium, and NLP libraries (e.g., NLTK, SpaCy) to efficiently acquire and process financial data from 5+ vendors, enhancing data availability for analysis.",
-            "Optimized data loading pipelines, improving data accuracy by 25%, and maintained 50+ database schemas for efficient market data storage and retrieval."
+            "Implemented automated ETL pipelines using APIs and Selenium to acquire financial data from 5+ vendors.",
+            "Optimised data-loading pipelines and maintained 50+ database schemas for financial data storage and retrieval.",
+            "Improved NLP-based entity extraction accuracy by 25% using NLTK and SpaCy."
         ]
     },
     {
@@ -47,10 +46,9 @@
         "startDate": "Jun 2023",
         "endDate": "Aug 2023",
         "description": [
-            "Led a team of three interns to develop a full-stack large language model application for DBS Bank.",
-            "Orchestrated code reviews, daily meetings, ensuring project milestone achievement.",
-            "Fine-tuned LLMs like BERT for document classification and sentiment analysis tasks.",
-            "Architected a topic tagging pipeline using LLMs for MTR Corp.'s NLP project, increasing accuracy by 14%."
+            "Led three interns building a full-stack LLM app for DBS Bank, supporting proposal drafting and rubric evaluation.",
+            "Worked across React frontend, Python backend, and SQL ORM while coordinating stand-ups and code reviews.",
+            "Architected an LLM-based topic-tagging pipeline for MTR Corporation, improving classification accuracy by 14%."
         ]
     }
 ]
